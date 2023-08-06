@@ -202,8 +202,8 @@ scissorsBtn.addEventListener("click", () => {
 function play(userOption) {
   const machineOption = calcMachile();
   const result = determineResult(userOption, machineOption);
-  userImg.src = userOption + ".svg";
-  machineImg.src = machineOption + ".svg";
+  userImg.src = userOption + ".png";
+  machineImg.src = machineOption + ".png";
   switch (result) {
     case TIE:
       resultText.innerHTML = "You have tied";
